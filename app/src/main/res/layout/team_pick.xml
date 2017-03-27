@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pick_side_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/AppTheme"
+    android:background="@color/windowBackground"
+    android:gravity="center"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:visibility="visible"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="@dimen/button_side_margin"
+        android:layout_marginRight="@dimen/button_side_margin"
+        android:background="@drawable/text_view_bg"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:padding="@dimen/low_margin"
+        android:text="Pick your side"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/title_text"/>
+
+    <LinearLayout
+        android:id="@+id/t_side_pick"
+        style="@style/TeamPickLayout"
+        android:layout_marginBottom="@dimen/mid_margin"
+        android:background="@drawable/t_button"
+        android:onClick="pickT"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/TeamPickText"
+            android:background="@drawable/t_button"
+            android:padding="@dimen/high_margin"
+            android:text="Terrorists"/>
+
+        <ImageView
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/mid_margin"
+            android:layout_marginRight="@dimen/big_margin"
+            android:background="@drawable/t_button"
+            android:padding="@dimen/mid_margin"
+            android:src="@drawable/icon_t"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ct_side_pick"
+        style="@style/TeamPickLayout"
+        android:background="@drawable/ct_button"
+        android:onClick="pickCT">
+
+        <ImageView
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="@dimen/mid_margin"
+            android:layout_marginLeft="@dimen/low_margin"
+            android:background="@drawable/ct_button"
+            android:padding="@dimen/mid_margin"
+            android:src="@drawable/icon_ct"/>
+
+        <TextView
+            style="@style/TeamPickText"
+            android:background="@drawable/ct_button"
+            android:padding="@dimen/high_margin"
+            android:text="Counter-Terrorists"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

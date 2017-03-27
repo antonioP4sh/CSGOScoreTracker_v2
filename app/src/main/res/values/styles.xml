@@ -1,0 +1,170 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#455A64</item>
+        <item name="colorButtonNormal">#455A64</item>
+        <item name="colorPrimaryDark">#263238</item>
+    </style>
+
+    <style name="AppThemeLand" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#455A64</item>
+        <item name="colorButtonNormal">#455A64</item>
+        <item name="colorPrimaryDark">#263238</item>
+    </style>
+
+    <style name="TeamPickLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/low_margin</item>
+        <item name="android:layout_marginRight">@dimen/low_margin</item>
+        <item name="android:padding">@dimen/mid_margin</item>
+    </style>
+
+    <style name="TeamPickLayoutLand">
+        <item name="android:layout_width">340dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/low_margin</item>
+        <item name="android:layout_marginRight">@dimen/low_margin</item>
+        <item name="android:padding">@dimen/mid_margin</item>
+    </style>
+
+    <style name="TeamPickText">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">@dimen/header_text</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="TButtons">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/high_margin</item>
+        <item name="android:layout_marginRight">@dimen/high_margin</item>
+        <item name="android:padding">@dimen/high_margin</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CTButtons">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/high_margin</item>
+        <item name="android:layout_marginRight">@dimen/high_margin</item>
+        <item name="android:padding">@dimen/high_margin</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TButtonsLand">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/mid_margin</item>
+        <item name="android:layout_marginRight">@dimen/mid_margin</item>
+        <item name="android:padding">@dimen/high_margin</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CTButtonsLand">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/mid_margin</item>
+        <item name="android:layout_marginRight">@dimen/mid_margin</item>
+        <item name="android:padding">@dimen/very_low_margin</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="NameView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:paddingBottom">@dimen/high_margin</item>
+        <item name="android:paddingTop">@dimen/high_margin</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/name_text</item>
+    </style>
+
+    <style name="NameViewLand">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:paddingTop">@dimen/mid_margin</item>
+        <item name="android:paddingBottom">@dimen/mid_margin</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/name_text_land</item>
+    </style>
+
+    <style name="RoundHistoryIcon">
+        <item name="android:layout_width">@dimen/semi_big_margin</item>
+        <item name="android:layout_height">@dimen/semi_big_margin</item>
+        <item name="android:padding">@dimen/very_low_margin</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:background">@drawable/border</item>
+    </style>
+
+    <style name="PlayerIcon">
+        <item name="android:layout_width">@dimen/big_margin</item>
+        <item name="android:layout_height">@dimen/big_margin</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:src">@drawable/player_icon_wh</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="Score">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:paddingBottom">@dimen/big_margin</item>
+        <item name="android:text">0</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/score_text</item>
+    </style>
+
+    <style name="ScoreLand">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:paddingBottom">@dimen/low_margin</item>
+        <item name="android:text">0</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/score_text</item>
+    </style>
+
+    <style name="Bomb">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginLeft">@dimen/semi_big_margin</item>
+        <item name="android:layout_marginRight">@dimen/semi_big_margin</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/bombColorOn</item>
+        <item name="android:textSize">@dimen/header_text</item>
+        <item name="android:background">@drawable/border_bomb</item>
+    </style>
+
+    <style name="BombLand">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginLeft">@dimen/mid_margin</item>
+        <item name="android:layout_marginRight">@dimen/mid_margin</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/bombColorOn</item>
+        <item name="android:textSize">@dimen/header_text</item>
+        <item name="android:background">@drawable/border_bomb</item>
+    </style>
+
+</resources>

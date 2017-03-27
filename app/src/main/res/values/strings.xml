@@ -1,0 +1,4 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">CSGO Score Tracker v2</string>
+    <string name="round_count">Round: 1/30</string>
+</resources>
