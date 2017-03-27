@@ -266,16 +266,6 @@
                 android:onClick="bombTimer"
                 android:text="Bomb!"/>
 
-            <!--<Button
-                android:id="@+id/t_null"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/mid_margin"
-                android:layout_marginLeft="@dimen/semi_big_margin"
-                android:layout_marginRight="@dimen/semi_big_margin"
-                android:padding="16dp"
-                android:visibility="invisible"/>-->
-
             <TextView
                 android:id="@+id/team_a_bonus"
                 android:layout_width="wrap_content"
